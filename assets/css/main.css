@@ -289,3 +289,119 @@ body {
     margin-bottom: 0;
     word-break: break-word;
 }
+
+.container .section-button {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.container .section-button .section-header .title {
+    font-size: 36px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+.container .section-button .section-content .button-item {
+    color: #4a4a4a;
+    box-shadow: rgb(13 23 34 / 25%) 0 3px 15px, rgb(13 23 34 / 13%) 0 0 0 1px;
+    padding: 40px;
+    margin: 0 15px;
+    width: 30%;
+}
+
+.container .section-button .section-content .button-item a:hover {
+    transition: opacity .3s ease-out;
+}
+
+.container .section-button .section-content .button-item img {
+    width: 100%;
+}
+
+.section {
+    padding: 60px 0;
+    background: no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.section::before {
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.section-cta {
+    padding: 40px 0;
+    text-align: center;
+    background: #b32804;
+    opacity: .9;
+}
+
+.section-cta {
+    z-index: 15;
+    position: relative;
+}
+
+.section-cta .section-header .title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.section-cta .cta {
+    margin: 40px 0;
+}
+
+.section-cta .cta .bottom-cta {
+    background: #149125;
+    color: #fff;
+    padding: 15px 40px;
+    line-height: 44px;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.section .section-background {
+    background: no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 65vw;
+    z-index: 10;
+}
+
+.section .section-background::before {
+    background-image: url("/assets/img/cta-bg-left-2.svg");
+    background-position: top left;
+    left: 0;
+    top: 0;
+}
+
+.section .section-background::after {
+    background-image: url("/assets/img/cta-bg-right-2.svg");
+    background-position: bottom right;
+    bottom: 0;
+    right: 0;
+}
+
+.section .section-background::before,
+.section .section-background::after {
+    background: no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 65vw;
+    z-index: 10;
+}
