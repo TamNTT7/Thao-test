@@ -1,0 +1,371 @@
+body {
+    font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, YuGothic, "游ゴシック", "ＭＳ Ｐゴシック", "MS PGothic", arial, sans-serif !important;
+}
+
+.wrapper {
+    background-image: url('https://www.biz2cloud.com/hubfs/library/classic/images/hero-dummy.jpg');
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 125px;
+}
+
+.header__logo {
+    height: 24px;
+    width: 300px;
+    float: left;
+    margin-top: 14px;
+}
+
+.header__navbar-list {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navbar-item-depth-1.item-has-children {
+    display: block;
+}
+
+.navbar-item-depth-1 a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-chilren-wrap {
+    list-style: none;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.navbar-item-depth-1:hover .navbar-chilren-wrap {
+    display: block;
+}
+
+.navbar-item-depth-2 a {
+    color: #4a4a4a;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navbar-chilren-wrap a:hover {
+    background-color: #b32804;
+    color: #fff;
+}
+
+.search-box {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    margin-left: 70px;
+    margin-top: -4px;
+}
+
+.input-search {
+    height: 20px;
+    width: 0px;
+    border-style: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    padding-right: 40px;
+    color: #fff;
+    background-color: transparent;
+    
+}
+
+.btn-search {
+    width: 0px;
+    border-style: none;
+    font-size: 23px;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #fff;
+    background-color: transparent;
+    pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+    display: block;
+}
+
+.input-search:focus {
+    width: 300px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.btn-search:hover .header__navbar-list {
+    display: none;
+}
+
+.hero {
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    width: calc(100% - 60px);
+    height: 160px;
+    text-align: center;
+}
+
+.hero-title,
+.hero-subtitle {
+    color: #fff;
+}
+
+.header.sticky {
+    background: black;
+    opacity: 0.9;
+    color: #000;
+    padding: 10px 0;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    border-bottom: 2px solid red;
+    height: 60px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(100%-60px) !important;
+}
+
+#BreadCrumb ul.breadcrumb,
+#BreadCrumb {
+    font-size: 12px;
+    list-style-type: none;
+    padding-left: 0px;
+    clear: both;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.blog-breadcrumb {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#BreadCrumb ul.breadcrumb li,
+#BreadCrumb li {
+    font-size: 12px;
+    display: inline-block;
+    font-weight: bold;
+    color: #4a4a4a;
+    float: none;
+}
+
+#BreadCrumb ul.breadcrumb li a {
+    font-size: 12px;
+    color: #4a4a4a;
+    text-decoration: underline;
+}
+
+.container .section {
+    padding: 60px 0;
+    position: relative;
+}
+
+.container .section .post-item {
+    position: relative;
+    padding: 0 15px 30px;
+}
+
+.container .section .post-Item-blog {
+    margin: 0 1% 2.5%;
+    overflow: hidden;
+    height: 400px;
+}
+
+.container .section .post-Item-blog a {
+    display: block;
+    text-decoration: none;
+    color: #666;
+    background: #fff;
+    height: 100%;
+    border: 1px solid #eee;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+    transition: opacity .3s ease-out;
+}
+
+.container .section .post-Item-blog .thumb {
+    max-height: 220px;
+    background: #000;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.container .section .post-Item-blog .thumb .post-image {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    transition: .3s ease-in-out;
+    box-sizing: border-box;
+}
+
+.container .section .post-Item-blog .thumb .category-name {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f93c0c;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0.1em 0.5em;
+    min-width: 7.5em;
+    opacity: .9;
+}
+
+.container .section .post-Item-blog .blog-content {
+    padding: 1em;
+}
+
+.container .section .post-Item-blog .blog-content .blog-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 10px 0;
+    color: #444;
+    text-align: left;
+}
+
+.container .section .post-Item-blog .blog-content .publish-date {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.5;
+    font-family: "Oswald", sans-serif;
+}
+
+.container .section .post-Item-blog .blog-content .publish-date::before {
+    font-family: "fontawesome";
+    content: "\f274";
+    font-size: .88em;
+    margin-right: 0.3em;
+    position: relative;
+    top: -1px;
+}
+
+.container .section .post-Item-blog .blog-content .description p {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 13px;
+    margin-bottom: 0;
+    word-break: break-word;
+}
+
+.container .section .blog-sitebar {
+    display: block;
+    box-sizing: border-box;
+    width: 287px;
+}
+.container .section .blog-sitebar .blog-site-bar__top-cta{
+
+}
+.container .section .blog-sitebar .blog-sitebar__top-cta .image-top-cta{
+    height: 100%;
+    width: 287px;
+}
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post .ranking-blog{
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #3e3e3e;
+    position: relative;
+    line-height: 22px;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post .ranking-blog .ow{
+    font-size: 18px;
+    font-family: "Oswald",sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #3e3e3e;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post .ranking-blog ::after{
+    content: "";
+    height: 8px;
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%223px%22%20height%3D%223px%22%20viewBox%3D%220%200%203%203%22%20fill%3D%22hsla%25280%2C%200%25%2C%2065%25%2C%201.0%2529%22%3E%3Cpolygon%20points%3D%220%2C0.5%200%2C1.5%201.5%2C3%202.5%2C3%22%2F%3E%3Cpolygon%20points%3D%222.5%2C0%201.5%2C0%203%2C1.5%203%2C0.5%22%2F%3E%3C%2Fsvg%3E);
+    background-size: 3px 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post ol li{
+    color: #f93c0c;
+    line-height: 1.6;
+    border-bottom: #ccc dotted 1px;
+    min-height: 55px;
+    padding-left: 40px;
+    padding-right: 25px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post ol li a{
+    display: block;
+    color: #666;
+    transition: .4s color;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post ol li a::after{
+    font-family: "fontawesome";
+    content: "\f054";
+    position: absolute;
+    top: 8px;
+    right: 0.6em;
+    font-size: 1em;
+    color: #f93c0c;
+}
+
+
+
+
+
