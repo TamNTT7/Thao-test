@@ -346,18 +346,6 @@ body {
     z-index: 15;
 }
 
-.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post ol li {
-    color: #f93c0c;
-    line-height: 1.6;
-    border-bottom: #ccc dotted 1px;
-    min-height: 55px;
-    padding-left: 40px;
-    padding-right: 25px;
-    margin-top: 10px;
-    padding-bottom: 10px;
-    position: relative;
-}
-
 .section-cta .section-header .title {
     font-size: 36px;
     color: #fff;
