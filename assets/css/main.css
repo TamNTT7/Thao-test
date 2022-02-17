@@ -84,14 +84,13 @@ body {
     padding-right: 40px;
     color: #fff;
     background-color: transparent;
-    
 }
 
 .btn-search {
     width: 0px;
     border-style: none;
     font-size: 23px;
-    font-weight: bold;
+    font-weight: 100;
     outline: none;
     cursor: pointer;
     border-radius: 50%;
@@ -157,6 +156,10 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
 }
 
 .container {
@@ -296,10 +299,8 @@ body {
     box-sizing: border-box;
     width: 287px;
 }
-.container .section .blog-sitebar .blog-site-bar__top-cta{
 
-}
-.container .section .blog-sitebar .blog-sitebar__top-cta .image-top-cta{
+.container .section .blog-sitebar .blog-sitebar__top-cta .image-top-cta {
     height: 100%;
     width: 287px;
 }
@@ -316,7 +317,7 @@ body {
 .container .section .blog-sitebar .blog-sitebar__top-post .ranking-blog .ow,
  .recent-blog .ow, .topic-blog .ow{
     font-size: 18px;
-    font-family: "Oswald",sans-serif;
+    font-family: "Oswald", sans-serif;
     font-weight: bold;
     margin-right: 10px;
     color: #3e3e3e;
@@ -504,6 +505,61 @@ body {
 
 
 
+.section-cta .section-header .title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+}
 
+.section-cta .cta {
+    margin: 40px 0;
+}
 
+.section-cta .cta .bottom-cta {
+    background: #149125;
+    color: #fff;
+    padding: 15px 40px;
+    line-height: 44px;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
 
+.section .section-background {
+    background: no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 65vw;
+    z-index: 10;
+}
+
+.section .section-background::before {
+    background-image: url("/assets/img/cta-bg-left-2.svg");
+    background-position: top left;
+    left: 0;
+    top: 0;
+}
+
+.section .section-background::after {
+    background-image: url("/assets/img/cta-bg-right-2.svg");
+    background-position: bottom right;
+    bottom: 0;
+    right: 0;
+}
+
+.section .section-background::before,
+.section .section-background::after {
+    background: no-repeat;
+    background-size: contain;
+    content: "";
+    display: block;
+    height: 300px;
+    position: absolute;
+    width: 65vw;
+    z-index: 10;
+}
