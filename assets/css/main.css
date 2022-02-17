@@ -81,6 +81,10 @@ body {
     transition: all .5s ease-in-out;
     padding-right: 40px;
     color: #fff;
+<<<<<<< Updated upstream
+=======
+    background-color: transparent;
+>>>>>>> Stashed changes
 }
 
 .btn-search {
@@ -295,6 +299,7 @@ body {
     padding-bottom: 120px;
 }
 
+<<<<<<< Updated upstream
 .container .section-button .section-header .title {
     font-size: 36px;
     color: #4a4a4a;
@@ -326,6 +331,32 @@ body {
 
 .section::before {
     bottom: 0;
+=======
+.container .section .blog-sitebar .blog-sitebar__top-cta .image-top-cta {
+    height: 100%;
+    width: 287px;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post .ranking-blog {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: #3e3e3e;
+    position: relative;
+    line-height: 22px;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post .ranking-blog .ow {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #3e3e3e;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post .ranking-blog ::after {
+>>>>>>> Stashed changes
     content: "";
     display: block;
     left: 0;
@@ -335,6 +366,7 @@ body {
     z-index: 5;
 }
 
+<<<<<<< Updated upstream
 .section-cta {
     padding: 40px 0;
     text-align: center;
@@ -344,9 +376,21 @@ body {
 
 .section-cta {
     z-index: 15;
+=======
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post ol li {
+    color: #f93c0c;
+    line-height: 1.6;
+    border-bottom: #ccc dotted 1px;
+    min-height: 55px;
+    padding-left: 40px;
+    padding-right: 25px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+>>>>>>> Stashed changes
     position: relative;
 }
 
+<<<<<<< Updated upstream
 .section-cta .section-header .title {
     font-size: 36px;
     color: #fff;
@@ -404,4 +448,23 @@ body {
     position: absolute;
     width: 65vw;
     z-index: 10;
+=======
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post ol li a {
+    display: block;
+    color: #666;
+    transition: .4s color;
+    text-decoration: none;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.container .section .blog-sitebar .blog-sitebar__blog-sitebar-top-post ol li a::after {
+    font-family: "fontawesome";
+    content: "\f054";
+    position: absolute;
+    top: 8px;
+    right: 0.6em;
+    font-size: 1em;
+    color: #f93c0c;
+>>>>>>> Stashed changes
 }
