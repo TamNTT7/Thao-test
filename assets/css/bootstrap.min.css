@@ -1981,11 +1981,6 @@ pre code {
 }
 
 .container {
-<<<<<<< HEAD
-    padding-right: 15px;
-    padding-left: 15px;
-=======
->>>>>>> 3598ac74612b5a12be028efe710d8c852e47d710
     margin-right: auto;
     margin-left: auto
 }
@@ -7589,11 +7584,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-<<<<<<< HEAD
-    background-color: #000\9;
-=======
     background-color: #000;
->>>>>>> 3598ac74612b5a12be028efe710d8c852e47d710
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px
