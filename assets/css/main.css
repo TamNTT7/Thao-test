@@ -317,14 +317,14 @@ body {
     width: 100%;
 }
 
-.section {
+.section-bottom {
     padding: 60px 0;
     background: no-repeat center;
     background-size: cover;
     position: relative;
 }
 
-.section::before {
+.section-bottom::before {
     bottom: 0;
     content: "";
     display: block;
