@@ -37,7 +37,7 @@ body {
     text-decoration: none;
 }
 
-.navbar-item-depth-1 a:hover{
+.navbar-item-depth-1 a:hover {
     color: #fff;
 }
 
@@ -53,7 +53,6 @@ body {
     width: auto;
     height: auto;
     overflow: visible;
-
 }
 
 .navbar-item-depth-1:hover .navbar-chilren-wrap {
@@ -305,31 +304,32 @@ body {
     word-break: break-word;
 }
 
-.container .section .blog-nav{
+.container .section .blog-nav {
     margin-top: 10px;
     margin-bottom: 60px;
 }
 
-.container .section .blog-nav ul{
+.container .section .blog-nav ul {
     margin-left: 0px;
     padding-left: 0px;
 }
 
- .disabled{
+.disabled {
     display: none;
 }
-.container .section .blog-nav .pagination span{
+
+.container .section .blog-nav .pagination span {
     background-color: #ddd;
     border: 1px solid #ddd;
 }
 
-.container .section .blog-nav ul li{
-margin-right: 5px;
-display: inline-block;
+.container .section .blog-nav ul li {
+    margin-right: 5px;
+    display: inline-block;
 }
 
 .container .section .blog-nav ul li a,
-.container .section .blog-nav ul li .active span{
+.container .section .blog-nav ul li .active span {
     border-radius: 2px;
     display: block;
     height: 34px;
@@ -434,7 +434,7 @@ display: inline-block;
     width: 100%;
 }
 
-.container .section .blog-sitebar .blog-sitebar__recent-post .item{
+.container .section .blog-sitebar .blog-sitebar__recent-post .item {
     border-top: #ccc dotted 1px;
     padding: 10px;
     position: relative;
@@ -446,7 +446,7 @@ display: inline-block;
     width: 84px;
 }
 
-.container .section .blog-sitebar .blog-sitebar__recent-post .title p{
+.container .section .blog-sitebar .blog-sitebar__recent-post .title p {
     font-size: 14px;
     line-height: 22px;
     padding-bottom: 5px;
@@ -553,17 +553,6 @@ display: inline-block;
     position: relative;
 }
 
-.section-bottom::before {
-    bottom: 0;
-    content: "";
-    display: block;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 5;
-}
-
 .section-cta {
     padding: 40px 0;
     text-align: center;
@@ -594,6 +583,7 @@ display: inline-block;
     border-radius: 3px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .section .section-background {
@@ -690,39 +680,38 @@ display: inline-block;
     text-decoration: underline;
 }
 
-.footer .footer-blog .footer-blog__navigation .company{
+.footer .footer-blog .footer-blog__navigation .company {
     margin-top: 60px;
 }
 
-.footer-social{
+.footer-social {
     margin-left: 486px;
 }
 
-.footer-social .menu{
+.footer-social .menu {
     display: flex;
-
 }
 
-.footer-social  ul li{
+.footer-social ul li {
     padding: 20px;
     list-style: none;
 }
 
-.footer-social a{
+.footer-social a {
     color: #a8a8a8;
 }
 
-.footer-social a:hover{
+.footer-social a:hover {
     color: #a8a8a8;
 }
 
-.footer-social i{
+.footer-social i {
     font-size: 22px;
     font-weight: 700;
     transition: color .3s;
 }
 
-.footer-copyright{
+.footer-copyright {
     color: #666;
     font-size: 15px;
     font-weight: 700;
