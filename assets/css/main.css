@@ -1,6 +1,15 @@
-body {
-    font-family: "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, YuGothic, "游ゴシック", "ＭＳ Ｐゴシック", "MS PGothic", arial, sans-serif !important;
+html {
+    font-family:  sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-weight: inherit;
 }
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
 
 .wrapper {
     background-image: url('https://www.biz2cloud.com/hubfs/library/classic/images/hero-dummy.jpg');
@@ -25,6 +34,8 @@ body {
     display: flex;
     list-style: none;
     justify-content: flex-end;
+    margin-top: 16px;
+    margin-bottom: 10px;
 }
 
 .navbar-item-depth-1.item-has-children {
@@ -522,6 +533,7 @@ display: inline-block;
 .container .section-button {
     text-align: center;
     padding-bottom: 120px;
+    border-top: 1px solid #f93c0c;
 }
 
 .container .section-button .section-header .title {
