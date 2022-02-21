@@ -180,10 +180,6 @@ h1 {
     width: 100%;
 }
 
-.sticky+.content {
-    padding-top: 60px;
-}
-
 .container {
     margin-left: 0;
     margin-right: 0;
@@ -567,7 +563,6 @@ display: inline-block;
 
 .section-bottom::before {
     bottom: 0;
-    content: "";
     display: block;
     left: 0;
     position: absolute;
